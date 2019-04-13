@@ -5,6 +5,32 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
-  plugins: []
+  siteName: 'Nathan Isaac',
+  siteDescription: 'Personal site and blog.',
+  transformers: {
+    remark: {
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+      anchorClassName: 'icon icon-link',
+      plugins: [
+        // ...global plugins
+      ]
+    }
+  },
+
+  plugins: [
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/blog/**/*.md',
+        route: 'blog/:slug',
+        typeName: 'Post',
+        remark: {
+          plugins: [
+            // ...local plugins
+          ]
+        }
+      }
+    }
+  ]
 }
