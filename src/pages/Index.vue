@@ -1,28 +1,21 @@
 <template>
   <layout>
-    <header class="header">
-      <div class="ni">Nathan Isaac</div>
 
-      <div class="hello">
-        <h1 class="hello-title">Hello! I'm a <strong>Full Stack Developer</strong> based in College Place, WA.</h1>
-        <p class="hello-subtitle">Got a project? <a href="mailto:nathanjisaac@gmail.com" class="hello-link">Contact me</a></p>
+    <div class="container mx-auto max-w-3xl mt-12 px-5">
+      <h1 class="text-4xl mb-10">
+        Hi! I'm Nathan, a Web Application Developer employed at <a href="https://www.wallawalla.edu/" class="font-bold hover:underline">Walla Walla University</a>.
+      </h1>
+
+      <div class="text-lg">
+        <p class="mb-3">
+          I'm a software developer who enjoys architecting web applications using Laravel, Vue.js, and Tailwind CSS.
+        </p>
+
+        <p>
+          I've been learning Python, experimenting with the JAMstack, and I'm continuing to learn how to write well-written automated tests.
+        </p>
       </div>
-
-      <nav class="hello-nav">
-        <a href="https://twitter.com/nathanjisaac" class="hello-nav-link is-icon is-twitter" title="Twitter">
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-        </a>
-        <a href="https://github.com/nathanjisaac" class="hello-nav-link is-icon" title="Github">
-          <i class="fa fa-github" aria-hidden="true"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/nathanisaac" class="hello-nav-link is-icon" title="Linkedin">
-          <i class="fa fa-linkedin" aria-hidden="true"></i>
-        </a>
-        <a href="mailto:nathanjisaac@gmail.com" class="hello-nav-link is-icon" title="Email">
-          <i class="fa fa-envelope-o" aria-hidden="true"></i>
-        </a>
-      </nav>
-    </header>
+    </div>
   </layout>
 </template>
 
