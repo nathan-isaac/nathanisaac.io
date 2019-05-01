@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <layout>
     <header class="header">
       <div class="ni">Nathan Isaac</div>
 
@@ -23,7 +23,7 @@
         </a>
       </nav>
     </header>
-  </div>
+  </layout>
 </template>
 
 <script>
