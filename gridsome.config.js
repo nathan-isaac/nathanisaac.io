@@ -31,6 +31,13 @@ module.exports = {
           ]
         }
       }
+    },
+
+    {
+      use: '~/src/plugins/tailwindcss',
+      options: {
+        config: './tailwind.config.js'
+      }
     }
   ]
 }
