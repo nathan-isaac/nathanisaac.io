@@ -1,0 +1,21 @@
+baseURL: https://nathanisaac.io/
+languageCode: en-us
+title: Nathan Isaac
+module:
+  imports:
+    # hugo mod get -u
+    - path: github.com/adityatelange/hugo-PaperMod
+
+params:
+  defaultTheme: auto # dark, light
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hey! I'm Nathan \U0001F44B"
+    Content: Programer, Photographer, Aviation Enthusiast
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/nathanjisaac"
+    - name: github
+      url: "https://github.com/nathanjisaac"
