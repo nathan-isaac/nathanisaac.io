@@ -1,10 +1,7 @@
 baseURL: https://nathanisaac.io/
 languageCode: en-us
 title: Nathan Isaac
-module:
-  imports:
-    # hugo mod get -u
-    - path: github.com/adityatelange/hugo-PaperMod
+theme: "PaperMod"
 
 params:
   defaultTheme: auto # dark, light
