@@ -1,13 +1,25 @@
 {{ define "main" }}
-  <article class="prose lg:prose-xl">
-    <h1>Tailwind 3 Hugo Starter</h1>
-
-    <h2 class="text-4xl">Testing Tailwind 3 Features</h2>
-    <div>
-      <button class="bg-[green] p-4">Share on Twitter</button>
+<div class="sm:px-8">
+  <div class="mx-auto w-full max-w-7xl lg:px-8">
+    <div
+            class="relative px-4 sm:px-8 lg:px-12"
+    >
+      <div class="mx-auto max-w-2xl lg:max-w-5xl">
+        <div class="max-w-2xl">
+          <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+            Software designer, founder, and amateur astronaut.
+          </h1>
+          <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+            I’m Spencer, a software designer and entrepreneur based in New York
+            City. I’m the founder and CEO of Planetaria, where we develop
+            technologies that empower regular people to explore space on their
+            own terms.
+          </p>
+          <div class="mt-6 flex gap-6">
+          </div>
+        </div>
+      </div>
     </div>
-
-    <h2 class="text-4xl">Markdowns: {{ .Title }}</h2>
-    {{ .Content }}..
-  </article>
+  </div>
+</div>
 {{ end }}
