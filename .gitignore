@@ -9,3 +9,4 @@ dist
 .idea
 .hugo_build.lock
 public
+resources

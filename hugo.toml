@@ -1,19 +1,31 @@
 baseURL = 'https://nathanisaac.io/'
 languageCode = 'en-us'
 title = 'Nathan Isaac'
-theme = 'PaperMod'
 
-[params]
-defaultTheme = "auto" # dark, light
+disableKinds = ["page", "section", "taxonomy", "term"]
 
-[params.homeInfoParams]
-Title = "Hey! I'm Nathan \U0001F44B"
-Content = "Programmer, Photographer, Aviation Enthusiast"
+[module]
+    [module.hugoVersion]
+        extended = false
+        min      = "0.112.0"
+    [[module.mounts]]
+        source = "assets"
+        target = "assets"
+    [[module.mounts]]
+        source = "hugo_stats.json"
+        target = "assets/watching/hugo_stats.json"
 
-[[params.socialIcons]]
-name = "twitter"
-url = "https://twitter.com/nathanjisaac"
-
-[[params.socialIcons]]
-name = "github"
-url = "https://github.com/nathan-isaac"
+[build]
+    writeStats = true
+    [[build.cachebusters]]
+        source = "assets/watching/hugo_stats\\.json"
+        target = "styles\\.css"
+    [[build.cachebusters]]
+        source = "(postcss|tailwind)\\.config\\.js"
+        target = "css"
+    [[build.cachebusters]]
+        source = "assets/.*\\.(js|ts|jsx|tsx)"
+        target = "js"
+    [[build.cachebusters]]
+        source = "assets/.*\\.(.*)$"
+        target = "$1"
