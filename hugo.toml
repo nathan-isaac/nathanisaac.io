@@ -1,0 +1,19 @@
+baseURL = 'https://nathanisaac.io/'
+languageCode = 'en-us'
+title = 'Nathan Isaac'
+theme = 'PaperMod'
+
+[params]
+defaultTheme = "auto" # dark, light
+
+[params.homeInfoParams]
+Title = "Hey! I'm Nathan \U0001F44B"
+Content = "Programmer, Photographer, Aviation Enthusiast"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/nathanjisaac"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/nathan-isaac"
