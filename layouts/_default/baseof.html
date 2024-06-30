@@ -23,6 +23,7 @@
         </div>
       </div>
       <div class="relative flex w-full flex-col">
+        {{ partial "header.html" . }}
         <main class="flex-auto">
           {{ block "main" . }}{{ end }}
         </main>

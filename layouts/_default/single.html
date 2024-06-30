@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="sm:px-8 mt-16 sm:mt-32">
+    <div class="mx-auto w-full max-w-7xl lg:px-8">
+        <div class="relative px-4 sm:px-8 lg:px-12">
+            <div class="mx-auto max-w-2xl lg:max-w-5xl">
+                <div class="max-w-2xl">
+                    <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+                        {{ .Title }}
+                    </h1>
+                    <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                        {{ .Content }}
+                    </p>
+                    <div class="mt-6 flex gap-6">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

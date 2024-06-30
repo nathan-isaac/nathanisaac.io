@@ -1,0 +1,38 @@
+<header
+        class="pointer-events-none relative z-50 flex flex-none flex-col"
+>
+    <div
+            class="top-0 z-10 h-16 pt-6"
+    >
+        {{ partial "container.html" . }}
+        {{ define "content" }}
+            <div class="relative flex gap-4">
+                <div class="flex flex-1">
+                    <div class="h-10 w-10 rounded-full bg-white/90 p-0.5 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:ring-white/10">
+                        <a
+                                href="/"
+                                aria-label="Home"
+                                class="pointer-events-auto"
+                        >
+                            {{ $image := resources.Get "images/profile.png" }}
+                            <img
+                                    src="{{ $image.RelPermalink }}"
+                                    alt=""
+                                    class="rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 h-9 w-9"
+                            />
+                        </a>
+                    </div>
+                </div>
+                <div class="flex flex-1 justify-end md:justify-center">
+                    {{ partial "desktop-nav.html" . }}
+                    <!--                <MobileNavigation class="pointer-events-auto md:hidden" />-->
+                </div>
+                <div class="flex justify-end md:flex-1">
+                    <div class="pointer-events-auto">
+                        <!--                    <ThemeToggle />-->
+                    </div>
+                </div>
+            </div>
+        {{ end }}
+    </div>
+</header>

@@ -2,8 +2,6 @@ baseURL = 'https://nathanisaac.io/'
 languageCode = 'en-us'
 title = 'Nathan Isaac'
 
-disableKinds = ["page", "section", "taxonomy", "term"]
-
 [module]
     [module.hugoVersion]
         extended = false
