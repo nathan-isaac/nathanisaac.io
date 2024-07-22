@@ -5,6 +5,15 @@ theme: "PaperMod"
 
 params:
   defaultTheme: auto # dark, light
+  DateFormat: "January 2, 2006"
+  ShowReadingTime: true
+  ShowWordCount: true
+  hidemeta: false
+  hideSummary: false
+  ShowBreadCrumbs: true
+  UseHugoToc: true
+
+
 
   # home-info mode
   homeInfoParams:
@@ -12,7 +21,7 @@ params:
     Content: Programmer, Photographer, Aviation Enthusiast
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/nathanjisaac"
+    - name: x
+      url: "https://x.com/nathanjisaac"
     - name: github
       url: "https://github.com/nathan-isaac"
