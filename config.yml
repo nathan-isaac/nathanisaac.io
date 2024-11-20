@@ -25,3 +25,24 @@ params:
       url: "https://x.com/Nathan_Isaac_"
     - name: github
       url: "https://github.com/nathan-isaac"
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: About
+          url: about
+          weight: 5
+        - name: Uses
+          url: uses
+          weight: 10
+        - name: Articles
+          url: articles/
+          weight: 20
+
