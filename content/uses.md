@@ -4,6 +4,8 @@ date: 2024-11-19T20:07:42-08:00
 draft: false
 ---
 
+> Explore [uses.tech](https://uses.tech/) to discover a collection of other people's /uses pages!
+
 ## Services
 
 - [Github](https://github.com/)
