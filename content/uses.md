@@ -17,16 +17,16 @@ draft: false
 ## Tech
 
 - [React](https://reactjs.org/)
-- [NX](https://nx.dev/) - Help manage monorepos
+- [NX](https://nx.dev/) - Help manage monorepos.
 - [Svelte](https://svelte.dev/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Testing Library](https://testing-library.com/)
 - [Playwright](https://playwright.dev/)
 - [Vitest](https://vitest.dev/)
-- [Go](https://golang.org/)
+- [Go](https://golang.org/) - Used for building CLI tools and web applications.
 - [Kotlin](https://kotlinlang.org/)
-- [Rust](https://www.rust-lang.org/)
+- [Rust](https://www.rust-lang.org/) - Exploring by building applications with [Tauri](https://tauri.app/).
 
 ## Editor
 
