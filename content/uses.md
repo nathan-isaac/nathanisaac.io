@@ -45,6 +45,7 @@ draft: false
 - [Spotify](https://www.spotify.com/)
 - [Obsidian](https://obsidian.md/)
 - [Logseq](https://logseq.com/)
+- [Sublime Merge](https://www.sublimemerge.com/) - Git Client
 
 ## CLI Tools
 
