@@ -25,10 +25,12 @@ params:
     Content: Programmer, Photographer, Aviation Enthusiast
 
   socialIcons:
-    - name: x
-      url: "https://x.com/Nathan_Isaac_"
     - name: github
       url: "https://github.com/nathan-isaac"
+    - name: x
+      url: "https://x.com/Nathan_Isaac_"
+    - name: rss
+      url: "/index.xml"
 
   editPost:
     URL: "https://github.com/nathan-isaac/nathanisaac.io/tree/main/content"
@@ -45,7 +47,7 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-    keys: [ "title", "permalink", "summary", "content" ]
+    keys: ["title", "permalink", "summary", "content"]
 
 menu:
   main:
@@ -61,4 +63,3 @@ menu:
     - name: Search
       url: search/
       weight: 30
-
