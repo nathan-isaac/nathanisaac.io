@@ -1,5 +1,5 @@
 baseURL: https://nathanisaac.io/
-languageCode: en-us
+locale: en-US
 title: Nathan Isaac
 theme: "PaperMod"
 
@@ -10,6 +10,8 @@ outputs:
     - JSON # is necessary
 
 params:
+  author:
+    name: Nathan Isaac
   defaultTheme: auto # dark, light
   DateFormat: "January 2, 2006"
   ShowReadingTime: true
@@ -23,6 +25,7 @@ params:
   homeInfoParams:
     Title: "Hey! I'm Nathan \U0001F44B"
     Content: Programmer, Photographer, Aviation Enthusiast
+    # A software engineer's journey through testing, architecture, and the occasional debugging nightmare.
 
   socialIcons:
     - name: github
