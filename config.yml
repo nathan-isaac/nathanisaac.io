@@ -10,8 +10,7 @@ outputs:
     - JSON # is necessary
 
 params:
-  author:
-    name: Nathan Isaac
+  author: Nathan Isaac
   defaultTheme: auto # dark, light
   DateFormat: "January 2, 2006"
   ShowReadingTime: true
